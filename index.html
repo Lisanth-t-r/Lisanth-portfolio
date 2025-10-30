@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram - Android & Front-End Developer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Lisanth T R</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-img">👨‍💻</div>
+            <h1>Hi, I'm Lisanth T R</h1>
+            <h2>Front-End Developer</h2>
+            <p>Building websites that make life easier.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I'm Lisanth, a passionate front-end developer who loves creating user-friendly, efficient, and visually appealing digital solutions. I enjoy turning ideas into working applications and continuously learning new technologies.</p>
+ <button class="btn btn-secondary" onclick="downloadResume()">📄 Download Resume</button>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Java</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="50"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="30"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Bootstrap</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Visual studio code</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Figma</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">📈</div>
+                    <div class="project-content">
+                        <h3>Digital Agency Landing Page</h3>
+                        <p> Created a responsive landing page with structured sections (Home, Services, Testimonials, Contact).</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Lisanth-t-r/Digital-agency" class="btn btn-secondary btn-small" target="_blank">GitHub</a>
+                            <a href="https://lisanth-t-r.github.io/Digital-agency/" class="btn btn-small">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">🌐</div>
+                    <div class="project-content">
+                        <h3>Responsive Portfolio Website</h3>
+                        <p>A modern and responsive personal portfolio showcasing projects, skills, and contact information with smooth animations and interactions.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="btn btn-secondary btn-small" target="_blank">GitHub</a>
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">🍽️</div>
+                    <div class="project-content">
+                        <h3>Spicy Heaven-Resturant website</h3>
+                        <p>Developed a fully responsive restaurant website using HTML and CSS to showcase restaurant offerings.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Lisanth-t-r/Spicy-Heaven-Project" class="btn btn-secondary btn-small" target="_blank">GitHub</a>
+                            <a href="https://lisanth-t-r.github.io/Spicy-Heaven-Project/" class="btn btn-small">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>B.E. in Computer Science and Engineering</h3>
+                    <h4>KSR College of Engineering</h4>
+                    <p>2022 - 2026</p>
+                </div>
+                <div class="education-item">
+                    <h3>Certifications</h3>
+                    <h4>Core Java Basics - Upgrad</h4>
+                    <p>Completed the java course from upgrad learning about basics and some advanced topics in java.</p>
+                </div>
+                <div class="education-item">
+                    <h4>Learning HTML And CSS from Begineer to Advanced - Udemy</h4>
+                    <p>Mastered HTML and CSS from basics to advanced level.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Your Access Key -->
+                    <input type="hidden" name="access_key" value="2820a307-bd49-407e-b633-d13e24382c21">
+                    
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary btn-full" id="submitBtn">Send Message</button>
+                </form>
+                <div id="formStatus" style="display:none; margin-top: 1rem; padding: 1rem; border-radius: 5px; text-align: center;"></div>
+                <div class="social-links">
+                    <a href="mailto:lisanthraja@gmail.con" title="Email">📧</a>
+                    <a href="https://github.com/Lisanth-t-r" target="_blank" title="GitHub">💻</a>
+                    <a href="https://www.linkedin.com/in/lisanth-t-r-8985a8269" target="_blank" title="LinkedIn">👔</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 Lisanth T R | Designed using HTML, CSS, and JavaScript</p>
+    </footer>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
